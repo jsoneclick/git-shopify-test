@@ -1,6 +1,57 @@
-
+@import url("media-screen.css");
 .grid {
-    position:  relative;
+    position: relative;
     justify-content: space-between;
     display: grid;
 }
+.frame h2 {
+    color: var(--black, #000);
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-items: center;
+
+}
+
+.frame h2:nth-child(2) {
+    display: flex;
+    justify-content: end;
+
+}
+
+.frame h2:nth-child(3) {
+    font-weight: 500;
+
+}
+
+.frame h2:nth-child(4) {
+    font-weight: 400;
+    display: flex;
+    justify-content: end;
+}
+
+.previewImg {
+    aspect-ratio: 1 / 1;
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid var(--black, #000);
+    padding: 8px;
+}
+
+.previewImg div {
+    color: var(--light-sand, #FCF7E6);
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 400;
+    width: 50px;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: var(--black, #000);
+    text-align: center;
+}
+

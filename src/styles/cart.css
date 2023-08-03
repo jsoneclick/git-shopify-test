@@ -1,0 +1,119 @@
+@import url("media-screen.css");
+.cartItems {
+    margin-top: 48px;
+}
+
+.cart-element {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FCF7E6;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cartProductInfo {
+    margin-left: -20px;
+    width: 60%;
+}
+
+.cartPreviewFrame {
+    height: 74px;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+
+}
+
+.changeQty {
+    display: flex;
+    justify-content: start;
+
+    width: 40%;
+}
+
+.changeQty div {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.cartBtnAdd {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    background: var(--black, #000);
+    color: var(--white, #FFF);
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.shoppingCartWrapper {
+    width: 445px;
+    height: 100vh;
+    flex-shrink: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    background: #1E1E1E;
+    padding: 48px 37px;
+    transition: right .6s;
+    overflow: auto;
+    right: -100%;
+}
+
+.shoppingCartWrapper hr {
+    background-color: #FCF7E6;
+
+    width: 100%;
+}
+
+.shoppingCartWrapper .cartHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FCF7E6;
+    font-family: Space Grotesk;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.cartTotal {
+    margin-top: 35px;
+    color: #FCF7E6;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    cursor: pointer;
+}

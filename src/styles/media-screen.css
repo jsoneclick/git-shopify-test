@@ -1,23 +1,4 @@
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-
-
-}
-.page {
-    position: relative;
-    background: var(--light-sand, #FCF7E6);
-    justify-content: space-between;
-
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @media screen and (max-width: 1500px) {
     section {
         padding: 24px;
@@ -31,7 +12,6 @@ body {
     .frame {
         width: 100vw;
     }
-
     .description {
         min-width: 100%;
     }
@@ -48,28 +28,25 @@ body {
         align-items: center;
 
     }
-
+    .shoppingCartWrapper {
+        width: 100%;
+    }
     .signUpBtn {
         width: 140px;
     }
-
     .spacer {
         width: 30%;
     }
-
     footer {
         display: block;
         padding: 48px;
     }
-
     footer ul li {
         width: 100%;
     }
-
     footer ul {
         margin-bottom: 48px;
     }
-
     .info_container {
         margin-top: 24px;
         margin-bottom: 50px;

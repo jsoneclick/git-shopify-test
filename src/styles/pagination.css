@@ -1,0 +1,35 @@
+@import url("media-screen.css");
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+}
+
+.pagination a {
+    color: #1E1E1E;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 100%;
+    border: 2px solid #1E1E1E;
+    aspect-ratio: 1 / 1;
+    height: 39px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.pagination a.active {
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 100%;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
