@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+</head>
+<body>
+    <h1>List of Products</h1>
+    <ul id="productList"></ul>
+
+    <script>
+        const limit = 12;
+        const apiURL = `https://voodoo-sandbox.myshopify.com/products.json?limit=${limit}`;
+
+        // Function to fetch and display products
+        async function fetchProducts() {
+            try {
+                const response = await fetch(apiURL);
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+
+                const data = await response.json();
+                const products = data.products || [];
+
+                const productListElement = document.getElementById("productList");
+                productListElement.innerHTML = ""; // Clear the list
+
+                products.forEach((product) => {
+                    const variants = product.variants || [];
+                    const price = variants.length > 0 ? variants[0].price : 'N/A';
+
+                    const listItem = document.createElement("li");
+                    listItem.textContent = `Product ID: ${product.id}, Title: ${product.title}, Price: $${price}`;
+                    productListElement.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error("Error occurred while fetching products:", error);
+            }
+        }
+
+        // Call the function to fetch products
+        fetchProducts();
+    </script>
+</body>
+</html>

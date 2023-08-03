@@ -1,0 +1,6 @@
+
+.grid {
+    position:  relative;
+    justify-content: space-between;
+    display: grid;
+}
