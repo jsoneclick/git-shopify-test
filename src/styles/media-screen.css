@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 @media screen and (max-width: 1500px) {
     section {
         padding: 24px;
@@ -12,6 +13,7 @@
     .frame {
         width: 100vw;
     }
+
     .description {
         min-width: 100%;
     }
@@ -28,25 +30,32 @@
         align-items: center;
 
     }
+
     .shoppingCartWrapper {
         width: 100%;
     }
+
     .signUpBtn {
         width: 140px;
     }
+
     .spacer {
         width: 30%;
     }
+
     footer {
         display: block;
         padding: 48px;
     }
+
     footer ul li {
         width: 100%;
     }
+
     footer ul {
         margin-bottom: 48px;
     }
+
     .info_container {
         margin-top: 24px;
         margin-bottom: 50px;

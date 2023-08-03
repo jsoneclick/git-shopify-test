@@ -1,9 +1,11 @@
 @import url("media-screen.css");
+
 .grid {
     position: relative;
     justify-content: space-between;
     display: grid;
 }
+
 .frame h2 {
     color: var(--black, #000);
     font-family: Space Grotesk;
@@ -54,4 +56,3 @@
     background: var(--black, #000);
     text-align: center;
 }
-

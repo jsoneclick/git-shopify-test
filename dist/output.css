@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@media screen and (max-width: 1500px) {
+  section {
+    padding: 24px;
+    width: 100%;
+  }
+
+  .page {
+    width: 100%;
+  }
+
+  .frame {
+    width: 100vw;
+  }
+
+  .description {
+    min-width: 100%;
+  }
+
+  .previewImg {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shoppingCartWrapper {
+    width: 100%;
+  }
+
+  .signUpBtn {
+    width: 140px;
+  }
+
+  .spacer {
+    width: 30%;
+  }
+
+  footer {
+    display: block;
+    padding: 48px;
+  }
+
+  footer ul li {
+    width: 100%;
+  }
+
+  footer ul {
+    margin-bottom: 48px;
+  }
+
+  .info_container {
+    margin-top: 24px;
+    margin-bottom: 50px;
+  }
+}
+
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
@@ -434,7 +497,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -484,7 +547,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -534,71 +597,67 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .container {
+@media (min-width: 640px){
+  .container{
     max-width: 640px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
+@media (min-width: 1024px){
+  .container{
     max-width: 1024px;
   }
 }
 
-@media (min-width: 1280px) {
-  .container {
+@media (min-width: 1280px){
+  .container{
     max-width: 1280px;
   }
 }
 
-@media (min-width: 1536px) {
-  .container {
+@media (min-width: 1536px){
+  .container{
     max-width: 1536px;
   }
 }
 
-.mx-auto {
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.block {
-  display: block;
-}
-
-.flex {
+.flex{
   display: flex;
 }
 
-.grid {
+.grid{
   display: grid;
 }
 
-.grid-cols-1 {
+.grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.gap-x-5 {
+.gap-x-5{
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
 }
 
-.gap-y-14 {
+.gap-y-14{
   row-gap: 3.5rem;
 }
 
@@ -615,71 +674,14 @@ body {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1500px) {
-  section {
-    padding: 24px;
-    width: 100%;
-  }
-
-  .page {
-    width: 100%;
-  }
-
-  .frame {
-    width: 100vw;
-  }
-
-  .description {
-    min-width: 100%;
-  }
-
-  .previewImg {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  header {
-    padding: 24px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .signUpBtn {
-    width: 140px;
-  }
-
-  .spacer {
-    width: 30%;
-  }
-
-  footer {
-    display: block;
-    padding: 48px;
-  }
-
-  footer ul li {
-    width: 100%;
-  }
-
-  footer ul {
-    margin-bottom: 48px;
-  }
-
-  .info_container {
-    margin-top: 24px;
-    margin-bottom: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:grid-cols-2 {
+@media (min-width: 768px){
+  .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:grid-cols-4 {
+@media (min-width: 1024px){
+  .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
